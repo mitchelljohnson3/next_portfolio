@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client'
 
 const Home: NextPage = ({launches}) => {
-  console.log('hes:', launches)
+  console.log('ches:', launches)
   return (
     <div className={styles.container}>
       <Head>
